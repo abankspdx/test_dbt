@@ -1,0 +1,12 @@
+config-version: 2
+
+name: 'pied_piper'
+version: '0.0.1'
+vars:
+    quickbooks_schema: pied_piper
+
+models:
+    quickbooks:
+      +schema: 
+    quickbooks_source:
+      +schema: 
